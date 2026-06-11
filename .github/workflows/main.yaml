@@ -2,11 +2,12 @@ name: main
 
 on:
   push:
+  
 
 jobs:
   buildx:
     runs-on: ubuntu-latest
-    permission:
+    permissions:
       packages: write
     steps:
     
