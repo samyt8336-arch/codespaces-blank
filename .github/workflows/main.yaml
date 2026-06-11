@@ -3,12 +3,12 @@ name: main
 on:
   push:
   
+permissions:
+    packages: write
 
 jobs:
   buildx:
     runs-on: ubuntu-latest
-    permissions:
-      packages: write
     steps:
     
       - name: Set up QEMU
