@@ -27,5 +27,5 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: nagin:latest
+          tags: ${{github.repository_owner }}/nginx:latest
           
